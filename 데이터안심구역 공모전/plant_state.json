@@ -1,0 +1,28 @@
+{
+  "name": "콩민이",
+  "moisture": 89.45281050576104,
+  "humidity": 81.58523918588956,
+  "temperature": 25.940903952995935,
+  "nutrients": 82.6358431517283,
+  "happiness": 93.18112420230442,
+  "last_update": 1762412703.1208065,
+  "last_label": "Tomato___healthy",
+  "last_conf": 0.9919338226318359,
+  "target": {
+    "humidity": [
+      45,
+      65
+    ],
+    "temperature": [
+      20,
+      28
+    ],
+    "moisture": [
+      45,
+      70
+    ]
+  },
+  "last_crop": "Tomato",
+  "last_disease": "healthy",
+  "born_at": 1762327431.6665738
+}
