@@ -110,19 +110,6 @@ YOLO로 식물 상태를 자동 탐지하고, LLM이 진단 결과를 사용자 
 
 `Python` `pandas` `numpy` `tslearn (DTW)` `Agglomerative Clustering` `Logistic Regression` `GeoPandas` `PySAL` `Spatial Lag Model` `Moran's I` `matplotlib`
 
----
-
-## 🛠 Technical Skills Summary
-
-| 분야 | 기술 |
-|------|------|
-| 통계 모델링 | 누적로짓, 로지스틱 회귀, 공간회귀(SAR), 요인분석 |
-| 공간 분석 | Moran's I, LISA, Kriging, IDW, GeoPandas, PySAL |
-| 시계열 | DTW, 시계열 군집, 거시경제 지표 통합 |
-| 컴퓨터 비전 | YOLO Object Detection, OpenCV |
-| NLP | 감성분석, 크롤링, LLM 연동 |
-| 언어·도구 | Python, R, GIS |
-
 
 ---
 
@@ -139,3 +126,18 @@ YOLO로 식물 상태를 자동 탐지하고, LLM이 진단 결과를 사용자 
 
 ### 4. LLM 특화 평가 메트릭 설계를 통한 정밀한 성능 검증
 기존 수치 예측 모델의 한계를 넘어, LLM의 특성을 반영한 다차원 평가 체계를 구축. 단순 수치인 Perplexity(PPL) 외에도 지시 이행 능력(Instruction Following) 및 논리적 추론(Reasoning) 지표를 도입하여 경량화 모델의 품질을 정량적·정성적으로 검증. 이를 바탕으로 경량화된 모델이 원본 대비 생성 답변의 논리적 일관성과 신뢰성을 얼마나 견고하게 유지하고 있는지 증명.
+
+
+---
+
+## 🛠 Technical Skills Summary
+
+| 분야 | 기술 |
+|------|------|
+| 통계 모델링 | 누적로짓, 로지스틱 회귀, 공간회귀(SAR), 요인분석, 가중치 보정 |
+| 공간 분석 | Moran's I, LISA, Kriging, IDW, GeoPandas, PySAL |
+| 시계열 | DTW, 시계열 군집, 거시경제 지표 통합, Lag 효과 분석 |
+| 컴퓨터 비전 | YOLO Object Detection, OpenCV |
+| NLP & LLM | 감성분석, 크롤링, EXAONE 경량화(Quantization, LoRA), 지식 증류 |
+| 모델 최적화 | On-device AI 최적화, Latency/Throughput 분석, XAI(SHAP) |
+| 언어·도구 | Python, R, GIS, PyTorch, HuggingFace |
